@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-
+#include <BulletDynamics/btBulletDynamicsCommon.h>
 int main (int argc, const char * argv[])
 {
 
