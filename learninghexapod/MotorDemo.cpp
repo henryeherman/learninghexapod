@@ -14,7 +14,7 @@ subject to the following restrictions:
 */
 
 
-#include "btBulletDynamicsCommon.h"
+#include "BulletDynamics/btBulletDynamicsCommon.h"
 #include "GlutStuff.h"
 #include "GL_ShapeDrawer.h"
 
