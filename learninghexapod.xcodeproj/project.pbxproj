@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C48CA2155239DD00D88AD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05C48CA1155239DD00D88AD4 /* main.cpp */; };
+		05C48CA4155239DD00D88AD4 /* learninghexapod.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05C48CA3155239DD00D88AD4 /* learninghexapod.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05C48C9B155239DD00D88AD4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				05C48CA4155239DD00D88AD4 /* learninghexapod.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05C48C9D155239DD00D88AD4 /* learninghexapod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learninghexapod; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C48CA1155239DD00D88AD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		05C48CA3155239DD00D88AD4 /* learninghexapod.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = learninghexapod.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C48C9A155239DD00D88AD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C48C92155239DD00D88AD4 = {
+			isa = PBXGroup;
+			children = (
+				05C48CA0155239DD00D88AD4 /* learninghexapod */,
+				05C48C9E155239DD00D88AD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C48C9E155239DD00D88AD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C48C9D155239DD00D88AD4 /* learninghexapod */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C48CA0155239DD00D88AD4 /* learninghexapod */ = {
+			isa = PBXGroup;
+			children = (
+				05C48CA1155239DD00D88AD4 /* main.cpp */,
+				05C48CA3155239DD00D88AD4 /* learninghexapod.1 */,
+			);
+			path = learninghexapod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C48C9C155239DD00D88AD4 /* learninghexapod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C48CA7155239DD00D88AD4 /* Build configuration list for PBXNativeTarget "learninghexapod" */;
+			buildPhases = (
+				05C48C99155239DD00D88AD4 /* Sources */,
+				05C48C9A155239DD00D88AD4 /* Frameworks */,
+				05C48C9B155239DD00D88AD4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learninghexapod;
+			productName = learninghexapod;
+			productReference = 05C48C9D155239DD00D88AD4 /* learninghexapod */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C48C94155239DD00D88AD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 05C48C97155239DD00D88AD4 /* Build configuration list for PBXProject "learninghexapod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05C48C92155239DD00D88AD4;
+			productRefGroup = 05C48C9E155239DD00D88AD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C48C9C155239DD00D88AD4 /* learninghexapod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C48C99155239DD00D88AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C48CA2155239DD00D88AD4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05C48CA5155239DD00D88AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05C48CA6155239DD00D88AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05C48CA8155239DD00D88AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05C48CA9155239DD00D88AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C48C97155239DD00D88AD4 /* Build configuration list for PBXProject "learninghexapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C48CA5155239DD00D88AD4 /* Debug */,
+				05C48CA6155239DD00D88AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C48CA7155239DD00D88AD4 /* Build configuration list for PBXNativeTarget "learninghexapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C48CA8155239DD00D88AD4 /* Debug */,
+				05C48CA9155239DD00D88AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05C48C94155239DD00D88AD4 /* Project object */;
+}
